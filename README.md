@@ -107,18 +107,18 @@ Add to `.env`:OPENAI_API_KEY=your_openai_key_here
 
 ## ⚙️ Installation
 
-1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/website-product-category-classifier
 cd website-product-category-classifier
-
-2. Install Dependencies
+```
+### 2. Install Dependencies
 pip install -r requirements.txt
 
-3. Install playwright browsers
+### 3. Install playwright browsers
 playwright install
 
-4. Create .env file
+### 4. Create .env file
 
 Use .env.example as a template:
 
@@ -127,7 +127,7 @@ GOOGLE_SHEET_ID=your_sheet_id
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json
 
 
-▶️ Running the Script
+## ▶️ Running the Script
 
 python website_classifier.py
 
@@ -141,7 +141,7 @@ Update the Sheet
 Print summary + token usage
 
 ------------------------------
-📊 Example Console Output
+## 📊 Example Console Output
 
 Processing row 5 with URL: https://www.nike.com
 Detected language: en
@@ -149,12 +149,13 @@ Classified category code: 7
 Updated Product column
 Updated Status column
 
------------ Summary ------------
-Total URLs processed: 42
-Timeout errors: 1
-SSL errors: 0
-GPT errors: 0
-Other errors: 2
-Total tokens used: 4152
-Estimated cost: $0.19
+
+----------- Summary ------------ \
+Total URLs processed: 42 \
+Timeout errors: 1 \
+SSL errors: 0 \
+GPT errors: 0 \
+Other errors: 2 \
+Total tokens used: 4152 \
+Estimated cost: $0.19 
 --------------------------------
