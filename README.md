@@ -122,8 +122,8 @@ playwright install
 
 Use .env.example as a template:
 
-OPENAI_API_KEY=your_key
-GOOGLE_SHEET_ID=your_sheet_id
+OPENAI_API_KEY=your_key \
+GOOGLE_SHEET_ID=your_sheet_id \
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json
 
 
@@ -133,21 +133,21 @@ python website_classifier.py
 
 The script will:
 
-Read URLs from the Google Sheet
-Visit each website
-Extract metadata
-Classify into category codes
-Update the Sheet
+Read URLs from the Google Sheet \
+Visit each website \
+Extract metadata \
+Classify into category codes \
+Update the Sheet \
 Print summary + token usage
 
 ------------------------------
 ## 📊 Example Console Output
 
-Processing row 5 with URL: https://www.nike.com
-Detected language: en
-Classified category code: 7
-Updated Product column
-Updated Status column
+Processing row 5 with URL: https://www.nike.com \
+Detected language: en \
+Classified category code: 7 \
+Updated Product column \
+Updated Status column 
 
 
 ----------- Summary ------------ \
